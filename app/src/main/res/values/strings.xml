@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" >Sistema de Movilidad - Tandil</string>
+    <string name="google_maps_API_key" >AIzaSyCnkbqDTP65vqQZs4h1hWf1lNVWKCrXGpE</string>
+    <string name="channel_name">Recordatorio de estacionamiento </string>
+</resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="8dp"
+    android:paddingHorizontal="12dp"
+    android:id="@+id/row_layout">
+
+    <TextView
+        android:id="@+id/transaccion"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Transacción: "
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/tipo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Tipo: "
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/fecha"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Fecha: "
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/linea"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Línea: "
+        android:textSize="16dp" />
+
+
+    <TextView
+        android:id="@+id/recorrido"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Recorrido: "
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/cant_pasajes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Cantidad de pasajes: "
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/importe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Importe: "
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/saldo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Saldo: "
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/saldo_viajes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="8dp"
+        android:text="Cantidad de viajes: "
+        android:textSize="16dp" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+</LinearLayout>

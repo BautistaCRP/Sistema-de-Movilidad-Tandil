@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/about_me"
+            android:scaleType="fitStart"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bautista Carpintero"
+            android:layout_gravity="center"
+            android:textSize="24dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Estudiante de Ing. de Sistemas de la Universidad Nacional del Centro de la Provincia de Buenos Aires"
+            android:textStyle="italic"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="4dp"
+            android:textSize="14dp"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="20dp"
+            android:textSize="16dp"
+            android:text="Esta aplicación se realizó con tres objetivos aprender a programar en Android, rendir el final de la catedra Programación Orientada a Objetos y optimizar mi rutina universitaria."
+            android:gravity="center"
+            android:elevation="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:textSize="16dp"
+            android:text="¡Consultar el saldo nunca fue tan fácil!"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            />
+
+
+        <LinearLayout
+            android:id="@+id/click_here"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_about_me_button">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/gmail_icon"
+                android:layout_margin="4dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Click aquí para contactarme"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="8dp"
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
