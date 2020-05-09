@@ -5,7 +5,7 @@
 ![app_icon](/screenshots/app-icon-100.png)
 
 
-Sistema de Movilidad - Tandil es una aplicación programada para android en la cual podemos ingresar nuestra tarjeta de movilidad tandilense, ya sea SUMO o PASE, para consultar nuestro saldo, nuestros movimientos e inclusive podemos pedir cuales son los kioscos o puestos de recarga para cargar saldo a la tarjeta. Los puestos de recarga los recibiremos ordenados según cercanía, para esto se usa la ubicación del dispositivo, y pulsando un botón podremos ver su ubicación desde la aplicación de Google Maps. Otro servicio que incorpora la aplicación es poder iniciar un recordatorio para no olvidarnos de retirar nuestra tarjeta del parquímetro en caso que hayas estacionado en el centro. Este recordatorio emitira una alerta en forma de notificación en el caso que el usuario salga de la zona de estacionamiento medido y haya dejado el parquímetro abierto.
+Sistema de Movilidad - Tandil es una aplicación programada para android en la cual podemos ingresar nuestra tarjeta de movilidad tandilense, ya sea SUMO o PASE, para consultar nuestro saldo, nuestros movimientos y tambien consultar cuales son los kioscos o puestos de recarga para cargar saldo. Los puestos de recarga los recibiremos ordenados según cercanía, para esto se usa la ubicación del dispositivo, y pulsando un botón podremos ver su ubicación desde la aplicación de Google Maps. Otro servicio que incorpora la aplicación es poder iniciar un recordatorio para no olvidarnos de retirar nuestra tarjeta del parquímetro en caso que hayas estacionado en la zona de estacionamiento medido. Este recordatorio emitira una alerta en forma de notificación en el caso que el usuario salga de esta zona habiendo dejado el parquímetro abierto.
 
 
 
